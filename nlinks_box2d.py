@@ -1,9 +1,13 @@
 """
 A Box2D environment of a planar manipulator with an arbitrary number of links n.
 
-The environment can be solved by training RL agents (e.g., Stable Baselines https://github.com/hill-a/stable-baselines)
+The environment can be solved by training RL agents (e.g., Stable Baselines 
+https://github.com/hill-a/stable-baselines)
 
-Note that this environment was created by adapting the acrobot-v1 environment (https://gym.openai.com/envs/Acrobot-v1/) from A. Geramifard, C. Dann, RH. Klein, W. Dabney, J. How, "RLPy: A Value-Function-Based Reinforcement Learning Framework for Education and Research." JMLR, 2015.
+Note that this environment was created by adapting the acrobot-v1 environment 
+(https://gym.openai.com/envs/Acrobot-v1/) from A. Geramifard, C. Dann, RH. 
+Klein, W. Dabney, J. How, "RLPy: A Value-Function-Based Reinforcement Learning 
+Framework for Education and Research." JMLR, 2015.
 """
 
 import time
